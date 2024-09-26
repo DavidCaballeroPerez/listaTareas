@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: bisque;
+}
+
+.container {
+  width: 700px;
+  min-height: 500px;
+  padding: 40px;
+  border: solid 3px black;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#ingresar-tarea {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  border: solid 3px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnCrearTarea {
+  width: 20%;
+  height: 30px;
+  padding: 10px;
+  margin-top: 15px;
+  border: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarea {
+  width: 100%;
+  min-height: 20px;
+  font-size: 25px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  border: solid 1px rgb(55, 55, 55);
+
+}
+
+.tareaCompletada {
+  text-decoration: line-through;
+  border: none;
+
+}
+
+.iconos {
+  color: black;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
